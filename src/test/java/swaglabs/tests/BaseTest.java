@@ -35,7 +35,7 @@ public class BaseTest {
 		prop = df.initProperties();
 		if (browserName != null) {
 			prop.setProperty("browser", browserName);
-			prop.setProperty("browserversion", browserVersion);
+	//		prop.setProperty("browserversion", browserVersion);
 		}
 		driver = df.initDriver(prop);
 		loginpage = new LoginPage(driver);
